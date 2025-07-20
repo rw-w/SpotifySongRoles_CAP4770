@@ -1,6 +1,6 @@
 import sqlite3
 
-database_file = 'playlists.db'
+database_file = 'dbs/song_features.db'
 
 def inspect_db_schema(db_file):
     try:
