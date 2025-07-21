@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-database_file = 'playlists.db'
+database_file = 'dbs/playlists.db'
 
 def create_song_feature_db_from(db_file):
     try:
